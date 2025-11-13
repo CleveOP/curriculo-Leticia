@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Letícia Maria</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adiciona ícones para um visual mais profissional -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-main">
+                <!-- Substitua 'https://via.placeholder.com/120' pelo caminho da sua foto, ex: 'foto.jpg' -->
+                <img src="./img/leticia.png" alt="Foto de perfil de Letícia Maria" class="profile-picture">
+                <div class="header-info">
+                    <h1>Letícia Maria</h1>
+                    <h2>Social Mídia</h2>
+                </div>
+            </div>
+            <div class="contact-info">
+                <a href="https://www.agenciamscriacoes.com/index.html" target="_blank" class="header-button">MS Criações</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="about">
+                <h3><i class="fas fa-user-circle"></i> Olá, eu sou a Letícia!</h3>
+                <p>
+                    Sou Social Media e criadora de conteúdo, apaixonada por transformar a presença online de marcas e profissionais. Com foco em criar conteúdo autêntico que gera conversas e constrói comunidades, estou pronta para aplicar minhas habilidades e ajudar a contar a sua história para o mundo. Vamos começar?
+                </p>
+            </section>
+
+            <section class="skills">
+                <h3><i class="fas fa-concierge-bell"></i> Serviços</h3>
+                <ul class="skills-list">
+                    <li><i class="fas fa-video"></i> Edição de Vídeos</li>
+                    <li><i class="fas fa-image"></i> Edição de Imagens</li>
+                    <li><i class="fas fa-calendar-alt"></i> Planejamento de Conteúdo</li>
+                    <li><i class="fas fa-chart-line"></i> Análise de Métricas</li>
+                    <li><i class="fas fa-users"></i> Gestão de Comunidades</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h3><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h3>
+                <div class="course">
+                    <h4><strong>Nome da Instituição</strong> | Nome do Curso</h4>
+                    <p class="date"><em>Ano de Conclusão</em></p>
+                </div>
+                 <!-- Adicione mais formações aqui -->
+            </section>
+        </main>
+        
+        <section class="cta">
+            <h3>Vamos trabalhar juntos?</h3>
+            <p>Se você busca uma gestão de redes sociais criativa e estratégica, entre em contato!</p>
+            <a href="https://www.agenciamscriacoes.com/index.html" target="_blank" class="header-button">Visite o site da agência</a>
+        </section>
+        
+        <footer class="footer">
+            <p>Letícia Maria &copy; <span id="current-year"></span></p>
+        </footer>
+    </div>
+
+    <script>
+        // Pega o ano atual e insere no rodapé
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
